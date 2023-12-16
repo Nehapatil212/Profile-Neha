@@ -1,35 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Index</title>
 </head>
+<style>
+    .intro {
+        background-color: rgb(239, 137, 87);
+        font: italic;
+    }
+
+    .border {
+        border: 2px solid blue;
+        background-color: lightskyblue;
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .nav a {
+        margin-right: 20px;
+        text-decoration: none;
+    }
+
+    #homeLink {
+        margin-left: 10px;
+    }
+
+    .h3 {
+        /* border-top-style: dotted;
+            border-bottom-style: solid;
+            border-width: 3px;
+            border-color: red; */
+        border: 3px solid red;
+        padding: 30px 20px;
+        margin: 30px;
+    }
+
+    .span {
+        margin-left: 20px;
+        padding-left: 20px;
+    }
+    .footer{
+        margin-left: 30px;
+    }
+</style>
+
 <body>
-    <header>
-        <span>Name: Neha Patil &nbsp;&nbsp;&nbsp;&nbsp;Mobile: 9370679440 &nbsp;&nbsp;&nbsp;&nbsp;email: abc@gmail.com</span>
+    <header class="intro">
+        <h3><span class="span"> Neha Patil</span> <span class="span">Mobile: 9370679440</span>
+            <span class="span"> email: abc@gmail.com</span>
+        </h3>
     </header>
 
+
     <hr>
-    <nav>
-        <a href="home.html" target="mainframe"> Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="techstack.html" target="mainframe"> Tech Stack</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="project.html" target="mainframe"> Projects</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="education.html" target="mainframe"> Eduaction</a>&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="others.html" target="mainframe"> Others</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <nav class=" nav a"><b>
+            <a href="home.html" target="mainframe" class="border" style="margin-left: 10px;"> Home</a>
+            <a href="techstack.html" target="mainframe" class="border"> Tech Stack</a>
+            <a href="project.html" target="mainframe" class="border"> Projects</a>
+            <a href="education.html" target="mainframe" class="border"> Eduaction</a>
+            <a href="others.html" target="mainframe" class="border"> Others</a> </b>
     </nav>
     <hr>
-    <!-- <iframe src="home.html" name="nameframe" height="400px" width="700px" frameborder="1"></iframe> -->
+    <iframe src="home.html" name="nameframe" height="400px" width="900px" frameborder="1"></iframe>
     <!-- <iframe src="techStack.html" name="nameframe" height="400px" width="700px" frameborder="1"></iframe> -->
     <!-- <iframe src="project.html" name="nameframe" height="400px" width="700px" frameborder="1"></iframe> -->
     <!-- <iframe src="education.html" name="nameframe" height="400px" width="700px" frameborder="1"></iframe> -->
-    
-    <iframe src="others.html" name="nameframe" height="400px" width="700px" frameborder="1"></iframe>
-    
+
+    <!-- <iframe src="others.html" name="nameframe" height="400px" width="700px" frameborder="1"></iframe> -->
+
     <footer>
-        <a href="linkedin">linkedin</a>&nbsp;&nbsp;
-        <a href="naukri">naukri</a>&nbsp;&nbsp;
-        <a href="facebook">facebook</a>&nbsp;&nbsp;
+        <a href="linkedin" class="footer">linkedin</a>
+        <a href="naukri" class="footer">naukri</a>
+        <a href="facebook" class="footer">facebook</a>
     </footer>
 </body>
+
 </html>
