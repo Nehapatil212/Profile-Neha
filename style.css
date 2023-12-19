@@ -1,0 +1,35 @@
+/* 
+input[type="email"]{
+
+} */
+button[type="submit"]:hover{
+    color: chocolate;
+    background-color: lavender;
+    width: 80px;
+    border-radius: 5px;
+}
+
+/* #fruits li{
+    list-style-type: none;
+} */
+li::before{
+    content: "👍";
+}
+#para::selection{
+    background-color: cadetblue;
+}
+body{
+    /* background-image: url(developer.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table,td{
+    border: 2px solid coral;
+    border-collapse: collapse;
+}
+tr:hover{
+    background-color: cadetblue;
+}
+td:hover{
+    background-color: rgb(233, 16, 16);
+  }
